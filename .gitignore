@@ -1,0 +1,30 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local databases
+.env
+backend/.env
+backend/*.db
+backend/*.sqlite3
+
+# Dataset files and generated artifacts
+backend/data/raw/
+backend/data/processed/
+backend/models/*.joblib
+backend/models/*.json
+backend/chroma_db/
+backend/uploads/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
